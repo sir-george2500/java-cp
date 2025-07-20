@@ -101,3 +101,112 @@ The Java compilation process converts human-readable Java source code into machi
 ```
 ```
 
+```
+
+
+# Java Syntax Guide
+This guide introduces the basic syntax of Java, using a simple "Hello World" program as an example. It explains the structure of a Java program, key components, and common pitfalls for beginners.
+Example: Hello World Program
+Below is a basic Java program that prints "Hello World" to the screen:
+```java
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+```
+
+### Expected Output:
+```java
+Hello World
+```
+### Key Components Explained
+1. **Class Declaration**
+
+Every Java program requires a class: All executable code must reside inside a class.
+Class name rules:
+The class name (e.g., Main) should start with an uppercase letter (convention).
+The file name must match the class name exactly and end with .java (e.g., Main.java).
+
+
+Case sensitivity: Java is case-sensitive, so Main and main are treated as different names.
+
+Example:
+```java
+public class Main { // Class name matches file name: Main.java
+    // Code goes here
+}
+```
+
+Note: Save the file with the exact class name (e.g., Main.java) to avoid compilation errors.
+2. The main Method
+
+The main method is the entry point of every Java program.
+It must have the following signature:public static void main(String[] args)
+
+
+Explanation of keywords:
+public: The method is accessible from outside the class.
+static: The method belongs to the class, not an instance of it.
+void: The method does not return a value.
+String[] args: An array of String arguments passed to the program (useful for command-line inputs).
+
+
+Any code inside the main method's curly braces {} is executed when the program runs.
+
+Example:
+```java
+public static void main(String[] args) {
+    // Code here runs when the program starts
+}
+```
+
+3. **Printing Output with System.out.println()**
+
+The **System.out.println()** method prints text to the console, followed by a new line.
+Breakdown:
+System: A built-in Java class that provides access to system resources.
+out: A static member of System, representing the output stream (usually the console).
+println(): A method that prints a line of text and adds a newline character.
+
+
+```java
+Syntax:System.out.println("Text to print");
+```
+
+Each statement in Java must end with a semicolon (;).
+
+Example:
+```java
+System.out.println("Hello World"); // Prints "Hello World" and moves to the next line
+```
+Note: Use System.out.print() if you want to print without a newline.
+4. Code Blocks and Syntax Rules
+
+Curly braces ``{}``: Define the start and end of a block of code (e.g., class or method body).
+Semicolons ``(;)``: End each statement to separate it from the next.
+Indentation: While not required, indenting code (e.g., 4 spaces or 1 tab) improves readability.
+
+Running the Program
+
+Save the file: Ensure the file name matches the class name (e.g., Main.java).
+Compile the code: Use the command javac Main.java to generate a Main.class file.
+Run the program: Use the command java Main to execute the program.
+Prerequisite: Ensure Java is installed (see Java Installation Guide).
+
+**Common Errors to Avoid**
+
+Mismatched file and class names: The file name must match the public class name (e.g., Main.java for public class Main).
+Missing semicolon: Forgetting ; after a statement causes a compilation error.
+Case sensitivity issues: Ensure correct capitalization (e.g., Main vs. main).
+Incorrect main method signature: The main method must be exactly **public static void main(String[] args)**.
+
+**Notes**
+
+Java is a case-sensitive language, so always check capitalization.
+The main method is mandatory for standalone programs.
+Use meaningful class names that reflect the program's purpose.
+Practice proper indentation to make your code easier to read.
+
+
+```
