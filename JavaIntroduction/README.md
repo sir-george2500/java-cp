@@ -53,8 +53,6 @@ To compile and run Java programs, you need to install the **JDK** (Java Developm
 java -version
 javac -version
 ```
-```
-
 
 # Java Code Compilation Process
 
