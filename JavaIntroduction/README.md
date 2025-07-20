@@ -101,8 +101,6 @@ The Java compilation process converts human-readable Java source code into machi
 ```
 ```
 
-```
-
 
 # Java Syntax Guide
 This guide introduces the basic syntax of Java, using a simple "Hello World" program as an example. It explains the structure of a Java program, key components, and common pitfalls for beginners.
@@ -207,6 +205,3 @@ Java is a case-sensitive language, so always check capitalization.
 The main method is mandatory for standalone programs.
 Use meaningful class names that reflect the program's purpose.
 Practice proper indentation to make your code easier to read.
-
-
-```
