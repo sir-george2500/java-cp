@@ -243,7 +243,7 @@ String values must be surrounded by **double quotes**.
 ```java
 String greeting = "Hello World";
 System.out.println(greeting);
-
+```
 - The `String` type is so commonly used and integrated in Java, some call it **"the special ninth type."**
 
 - A `String` in Java is actually a **non-primitive data type**, because it refers to an **object**.
@@ -251,9 +251,3 @@ System.out.println(greeting);
 - The `String` object has methods to perform operations on strings.
 
 - Don’t worry if you don’t understand **objects** yet — this will be covered in later chapters.
-
-```
-```
-```
-```
-```
