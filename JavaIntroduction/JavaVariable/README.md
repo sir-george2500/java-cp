@@ -172,3 +172,88 @@ System.out.println(myNum);
 ## Scientific Numbers
 
 - Floating point numbers can be represented in **scientific notation** using an `"e"` or `"E"` to indicate powers of 10.
+
+```java 
+
+float f1 = 35e3f;
+double d1 = 12E4d;
+System.out.println(f1);
+System.out.println(d1);
+```
+
+
+# Java Boolean Data Types
+
+## Boolean Types
+
+Very often in programming, you will need a data type that can only have one of two values, like:
+
+- YES / NO  
+- ON / OFF  
+- TRUE / FALSE  
+
+For this, Java has a **boolean** data type, which can only take the values `true` or `false`.
+
+---
+
+### Example
+
+```java
+boolean isJavaFun = true;
+boolean isFishTasty = false;
+System.out.println(isJavaFun);     // Outputs true
+System.out.println(isFishTasty);   // Outputs false
+```
+
+
+# Java Characters
+
+## Characters
+
+The `char` data type is used to store a **single character**.  
+The character must be surrounded by **single quotes**, like `'A'` or `'c'`.
+
+---
+
+### Example
+
+```java
+char myGrade = 'B';
+System.out.println(myGrade);
+```
+
+
+Alternatively, if you are familiar with ASCII values, you can use those to display certain characters:
+
+```java
+char myVar1 = 65, myVar2 = 66, myVar3 = 67;
+System.out.println(myVar1);  // Outputs: A
+System.out.println(myVar2);  // Outputs: B
+System.out.println(myVar3);  // Outputs: C
+```
+
+
+## Strings
+
+The `String` data type is used to store a sequence of characters (text).  
+String values must be surrounded by **double quotes**.
+
+### Example
+
+```java
+String greeting = "Hello World";
+System.out.println(greeting);
+
+- The `String` type is so commonly used and integrated in Java, some call it **"the special ninth type."**
+
+- A `String` in Java is actually a **non-primitive data type**, because it refers to an **object**.
+
+- The `String` object has methods to perform operations on strings.
+
+- Don’t worry if you don’t understand **objects** yet — this will be covered in later chapters.
+
+```
+```
+```
+```
+```
