@@ -90,7 +90,7 @@ int minutesPerHour = 60;
 // OK, but not so easy to understand what m actually is
 int m = 60;
 
-
+```
 # Java Numbers
 
 Java has two main groups of **primitive number types**:
@@ -117,10 +117,6 @@ Store **whole numbers** (positive or negative) **without decimals**.
 byte myNum = 100;
 System.out.println(myNum);
 
-```
-```
-```
-```
 ```
 
 
@@ -162,7 +158,7 @@ System.out.println(myNum);
 ```java
 double myNum = 19.99d;
 System.out.println(myNum);
-
+```
 
 ## Use float or double?
 
@@ -176,6 +172,3 @@ System.out.println(myNum);
 ## Scientific Numbers
 
 - Floating point numbers can be represented in **scientific notation** using an `"e"` or `"E"` to indicate powers of 10.
-
-```
-```
