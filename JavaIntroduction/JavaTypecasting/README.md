@@ -106,8 +106,6 @@ Below is the syntax for narrowing type casting (manual type conversion):
 ```java
 double doubleNum = (double) num;
 ```
-```
-```
 
 
 The above statement converts the variable `num` into a double type.
@@ -140,18 +138,10 @@ public class Tester {
    }
 }
 ```
-```
-```
-```
-```
 
 #### output 
 ```java
 
 The value of 5004 after converting to the double is 5004.0
 The value of 5004.0 after converting to the int again is 5004
-```
-
-
-```
 ```
