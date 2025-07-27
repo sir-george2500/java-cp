@@ -9,6 +9,7 @@ public class Solution{
     }
 
 
+//    Issue #17
     public static void issue17Output(){
         int myNum = 10;
         myNum = 20;
