@@ -85,7 +85,6 @@ public class DateComparisonExample {
 It allows you to start by choosing any user-defined patterns for date-time formatting.
 
 ```java
-```
 import java.util.*;
 import java.text.*;
 
@@ -99,5 +98,4 @@ public class DateDemo {
       System.out.println("Current Date: " + ft.format(dNow));
    }
 }
-```
 ```
