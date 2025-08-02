@@ -106,9 +106,79 @@ To explore all methods for different user inputs, look at the table below:
 | 10 | **long nextLong()**<br>This method scans the next token of the input as a long. |
 | 11 | **short nextShort()**<br>This method scans the next token of the input as a short. |
 
+
+# Integer Input from the User
+
+The `nextInt()` method is used to take input of an integer from the user.
+
+## Example
+
+In the following example, we are taking an integer as an input:
+
+```java 
+
+// Importing the class
+import java.util.Scanner;
+
+public class IntegerInput {
+   public static void main(String[] args) {
+      // Creating an object of Scanner class
+      Scanner sc = new Scanner(System.in);
+
+      // Reading an Integer Input
+      System.out.print("Input an integer value: ");
+      int int_num = sc.nextInt();
+
+      System.out.print("The input is : " + int_num);
+   }
+}
+```
+
+### output
+
+```java
+
+Input an integer value: 101
+The input is : 101
+```
+
+
+# Float Input from the User
+
+The `nextFloat()` method is used to take input of a float value from the user.
+
+## Example
+
+In the following example, we are taking a float as an input:
+
+```java
+
+// Importing the class
+import java.util.Scanner;
+
+public class IntegerInput {
+   public static void main(String[] args) {
+      // Creating an object of Scanner class
+      Scanner sc = new Scanner(System.in);
+
+      // Reading a Float Input
+      System.out.print("Input a float value: ");
+      float float_num = sc.nextFloat();
+
+      System.out.print("The input is : " + float_num);
+   }
+}
 ```
 ```
+
+
+### output 
+```java 
+Input a float value: 12.345
+The input is : 12.345
 ```
+
+
 ```
 ```
 ```
