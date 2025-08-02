@@ -169,7 +169,6 @@ public class IntegerInput {
    }
 }
 ```
-```
 
 
 ### output 
@@ -178,8 +177,3 @@ Input a float value: 12.345
 The input is : 12.345
 ```
 
-
-```
-```
-```
-```
