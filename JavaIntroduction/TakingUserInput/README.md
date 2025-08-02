@@ -175,3 +175,41 @@ Input a float value: 12.345
 The input is : 12.345
 ```
 
+
+# String Input from the User
+
+The `nextLine()` method is used to take input of a string value from the user.
+
+## Example
+
+In the following example, we are taking a string as an input:
+
+```java 
+
+// Importing the class
+import java.util.Scanner;
+
+public class IntegerInput {
+   public static void main(String[] args) {
+      // Creating an object of Scanner class
+      Scanner sc = new Scanner(System.in);
+
+      // Reading a String Input
+      System.out.print("Input a string value: ");
+      String str = sc.nextLine();
+
+      System.out.print("The input is : " + str);
+   }
+}
+```
+
+### Output 
+
+```java 
+
+Input a string value: Hello World
+The input is : Hello World
+```
+
+
+```
