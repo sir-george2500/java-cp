@@ -15,9 +15,7 @@ First, you need to import the Scanner class to use its methods.
 To import the Scanner class, use the following import statement:
 
 ```java
-```
 import java.util.Scanner
-```
 ```
 
 ### Step 2: Create Scanner Class's Object
