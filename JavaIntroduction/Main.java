@@ -1,19 +1,10 @@
-<<<<<<< HEAD
 public class Main{
     public static void main(String[] args){
+        int[][] matrix = {0,1,2,3,4};
 
-    boolean userVerify = false;
-    String name = "George";
 
-   //System.out.println("Do you want to install this program");
-    //System.out.println(userResponseYes);
-    //System.out.println(userResponseNo);
-
-        // print user verification status
-      System.out.println(name);
-      System.out.println(userVerify);
-
+        int n = matrix.length;
+        System.out.println("This is the output");
+        System.out.println(n-);
     }
 }
-=======
->>>>>>> deec9bb674ccf5d54071ff4c40ba97ada720f860
