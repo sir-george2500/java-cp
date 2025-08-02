@@ -210,6 +210,3 @@ public class IntegerInput {
 Input a string value: Hello World
 The input is : Hello World
 ```
-
-
-```
