@@ -1,0 +1,14 @@
+In Java, case sensitivity means that the language treats uppercase and lowercase letters as different.
+So, for example, Variable, variable, and VARIABLE are considered three different identifiers (variable names).
+This affects:
+Variable names
+Method names
+Class names
+
+Example:
+int age = 25;
+int Age = 30;
+These are two different variables:
+age stores 25
+Age stores 30
+Even though they look similar, Java treats them as separate because of the difference in capitalization.
