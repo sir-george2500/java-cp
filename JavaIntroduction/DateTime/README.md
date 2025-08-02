@@ -130,7 +130,6 @@ Current Date/Time : Sat Dec 15 16:37:57 MST 2012
 
 ```
 ```java 
-```
 import java.util.Date;
 public class DateDemo {
 
@@ -142,8 +141,6 @@ public class DateDemo {
       System.out.printf("%s %tB %<te, %<tY", "Due date:", date);
    }
 }
-```
-```
 ```
 
 
@@ -219,7 +216,6 @@ public class DateDemo {
 
 ### Output
 ```java 
-```
 1818-11-11 Parses as Wed Nov 11 00:00:00 EST 1818
 ```
 
@@ -230,7 +226,7 @@ public class DateDemo {
 You can sleep for any period of time from one millisecond up to the lifetime of your computer.  
 For example, the following program would sleep for 3 seconds:
 
-
+```java
 import java.util.*;
 public class SleepDemo {
 
@@ -244,7 +240,7 @@ public class SleepDemo {
       }
    }
 }
-
+```
 ## Output
 ```java 
 Sun May 03 18:04:41 GMT 2009
@@ -256,7 +252,6 @@ Sun May 03 18:04:51 GMT 2009
 # Measuring Elapsed Time
 
 Sometimes, you may need to measure point in time in milliseconds. So let's re-write the above example once again −
-```
 
 ```java 
 
@@ -384,15 +379,4 @@ Output
 Date: Apr 22 2009
 Time: 11:25:27
 The current year is not a leap year
-```
-
-
-```
-```
-```
-```
-```
-```
-```
-```
 ```
