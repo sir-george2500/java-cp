@@ -1,0 +1,18 @@
+The %tb format specifier in Java is used with printf (or String.format) to format a date by printing the abbreviated month name e.g., Jan, Feb, Mar, etc.
+
+%t indicates a date/time conversion is coming.
+
+b stands for abbreviated month name Jan, Feb, Mar.
+
+You must pass a java.util.Date or java.time object when using %t format specifiers.
+Example:
+import java.util.Date;
+
+public class Main {
+    public static void main(String[] args) {
+        Date today = new Date();
+        System.out.printf("Month (abbreviated): %tb%n", today);
+    }
+}
+
+
