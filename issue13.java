@@ -19,7 +19,7 @@ public class issue13 {
        String $1stNumber = "valid";
 
        // The rule: identifiers must start with letter, underscore, or dollar sign
-       // After the first character, digits are allowed
+       // After the first character, digits are allowe
 
        System.out.println("Valid identifier examples work fine!");
    }
