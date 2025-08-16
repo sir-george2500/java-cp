@@ -1,0 +1,20 @@
+java.util.Date
+The java.util.Date class represents a specific moment in time, accurate to the millisecond. Its primary purpose is to tell you when an event occurred. However, it's an older class with a number of significant issues. Most of its useful methods for manipulation—like adding days or setting the month—are deprecated. Because of its outdated design, using Date for any form of calculation is a common source of bugs and is no longer recommended.
+While
+java.util.GregorianCalendar
+The java.util.GregorianCalendar class was created as a modern solution to Date's problems. It's a comprehensive toolkit for date and time calculations. Instead of just a single moment in time, it allows you to get or set specific fields like the year, month, or day. It correctly handles complex operations, such as automatically adjusting for time zones, daylight saving time, and leap years, making it far more reliable for any date-based logic.
+
+Example:
+import java.util.GregorianCalendar;
+import java.util.Calendar;
+
+public class Example {
+    public static void main(String[] args) {
+        GregorianCalendar calendar = new GregorianCalendar();
+        System.out.println("Today: " + calendar.getTime());
+
+        calendar.add(Calendar.DAY_OF_MONTH, 90);
+        System.out.println("90 days later: " + calendar.getTime());
+    }
+}
+
