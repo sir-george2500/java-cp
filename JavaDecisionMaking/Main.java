@@ -3,57 +3,33 @@ import java.util.*;
 public class Main{
 
     public static void main(String[] args){
+
+        System.out.println("Enter character Move");
+        System.out.print("Move: Up : 1 , \n Down : 2 , \n Left : 3, \n Right : 4 , \n Forward : 5, \n Backward : 6 \n");
         Scanner sc = new Scanner(System.in);
 
-        enum emoition{
-            HAPPY,
-            SAD,
-            ANGRY,
-            EXCITED,
-            CONFUSED
-        }
+        int moveInput = sc.nextInt();
 
-        // block game
+       /*** Until then loop psuedocode
+        *  REPEAT
+        *  {
+        *
+        *
+        *  } UNIL (condition to stop)
+        *
+        * do while
+        *
+        * ***/
 
-        enum Days{
-            MONDAY,
-            TUESDAY,
-            WEDNESDAY,
-            THURSDAY,
-            FRIDAY,
-            SATURDAY,
-            SUNDAY
+        for (int i =moveInput; i>2; i-=1) {
+            System.out.println("the user is now runing");
         }
 
 
-        System.out.println("Please Enter the number of the current day: ");
-        int day = sc.nextInt();
+        System.out.println("The user has stopped runign and walking now ");
 
-        switch(day){
-            case 1:
-                System.out.println(Days.MONDAY);
-                break;
-            case 2:
-                System.out.println(Days.TUESDAY);
-                break;
-            case 3:
-                System.out.println(Days.WEDNESDAY);
-                break;
-            case 4:
-                System.out.println(Days.THURSDAY);
-                break;
-            case 5:
-                System.out.println(Days.FRIDAY);
-                break;
-            case 6:
-                System.out.println(Days.SATURDAY);
-                break;
-            case 7:
-                System.out.println(Days.SUNDAY);
-                break;
-            default:
-                System.out.println("Invalid Input");
-                break;
-        }
+
+
+
     }
 }
