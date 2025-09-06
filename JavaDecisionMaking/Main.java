@@ -1,35 +1,27 @@
 import java.util.*;
 
 public class Main{
-
     public static void main(String[] args){
+      House house1 = new House();
+      house1.Color = "Red";
+      house1.Address = "123 Street, City";
 
-        System.out.println("Enter character Move");
-        System.out.print("Move: Up : 1 , \n Down : 2 , \n Left : 3, \n Right : 4 , \n Forward : 5, \n Backward : 6 \n");
-        Scanner sc = new Scanner(System.in);
-
-        int moveInput = sc.nextInt();
-
-       /*** Until then loop psuedocode
-        *  REPEAT
-        *  {
-        *
-        *
-        *  } UNIL (condition to stop)
-        *
-        * do while
-        *
-        * ***/
-
-        for (int i =moveInput; i>2; i-=1) {
-            System.out.println("the user is now runing");
-        }
+      House house2 = new House();
+      house2.Color = "Blue";
+      house2.Address = "456 Avenue, City";
 
 
-        System.out.println("The user has stopped runign and walking now ");
+      Apartment apt1 = new Apartment();
+      apt1.Color = "White Apartment";
+      apt1.Address = "789 Boulevard, City Apartmetn";
+      apt1.Floor = 5;
+      apt1.UnitNumber = 502;
+      apt1.displayInfo();
+      // this for the apartment
 
-
-
+      // and this for the house
+      house1.displayInfo();
+      house2.displayInfo();
 
     }
 }
