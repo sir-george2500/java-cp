@@ -1,4 +1,3 @@
-
 // Q51.Write the Java statement to create a Scanner object for taking input from the console.
 //
 // Answer. Below is the syntax for creating a scanner object for taking input from the console or user.
